@@ -1,0 +1,145 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Medox
+build_property.RootNamespace = Medox
+build_property.ProjectDir = C:\Users\alben\source\repos\Medox\Medox\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\alben\source\repos\Medox\Medox
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/alben/source/repos/Medox/Medox/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alben/source/repos/Medox/Medox/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alben/source/repos/Medox/Medox/Views/KorSkds/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29yU2tkc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alben/source/repos/Medox/Medox/Views/KorSkds/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29yU2tkc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alben/source/repos/Medox/Medox/Views/KorSkds/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29yU2tkc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alben/source/repos/Medox/Medox/Views/KorSkds/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29yU2tkc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alben/source/repos/Medox/Medox/Views/KorSkds/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29yU2tkc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alben/source/repos/Medox/Medox/Views/KorZstMains/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29yWnN0TWFpbnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alben/source/repos/Medox/Medox/Views/KorZstMains/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29yWnN0TWFpbnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alben/source/repos/Medox/Medox/Views/KorZstMains/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29yWnN0TWFpbnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alben/source/repos/Medox/Medox/Views/KorZstMains/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29yWnN0TWFpbnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alben/source/repos/Medox/Medox/Views/KorZstMains/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29yWnN0TWFpbnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alben/source/repos/Medox/Medox/Views/KorZstSklads/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29yWnN0U2tsYWRzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alben/source/repos/Medox/Medox/Views/KorZstSklads/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29yWnN0U2tsYWRzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alben/source/repos/Medox/Medox/Views/KorZstSklads/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29yWnN0U2tsYWRzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alben/source/repos/Medox/Medox/Views/KorZstSklads/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29yWnN0U2tsYWRzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alben/source/repos/Medox/Medox/Views/KorZstSklads/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29yWnN0U2tsYWRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alben/source/repos/Medox/Medox/Views/KorZsts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29yWnN0c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alben/source/repos/Medox/Medox/Views/KorZsts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29yWnN0c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alben/source/repos/Medox/Medox/Views/KorZsts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29yWnN0c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alben/source/repos/Medox/Medox/Views/KorZsts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29yWnN0c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alben/source/repos/Medox/Medox/Views/KorZsts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29yWnN0c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alben/source/repos/Medox/Medox/Views/KorZstToKorZstSklads/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29yWnN0VG9Lb3Jac3RTa2xhZHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alben/source/repos/Medox/Medox/Views/KorZstToKorZstSklads/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29yWnN0VG9Lb3Jac3RTa2xhZHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alben/source/repos/Medox/Medox/Views/KorZstToKorZstSklads/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29yWnN0VG9Lb3Jac3RTa2xhZHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alben/source/repos/Medox/Medox/Views/KorZstToKorZstSklads/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29yWnN0VG9Lb3Jac3RTa2xhZHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alben/source/repos/Medox/Medox/Views/KorZstToKorZstSklads/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29yWnN0VG9Lb3Jac3RTa2xhZHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alben/source/repos/Medox/Medox/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alben/source/repos/Medox/Medox/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alben/source/repos/Medox/Medox/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alben/source/repos/Medox/Medox/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alben/source/repos/Medox/Medox/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-c1yfildfbd

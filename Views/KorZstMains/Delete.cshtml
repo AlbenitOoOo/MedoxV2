@@ -1,0 +1,51 @@
+﻿@model Medox.Models.KorZstMain
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>KorZstMain</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ZstMainNazwa)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ZstMainNazwa)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ZstMainOpis)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ZstMainOpis)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ZstMainCzyAktywny)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ZstMainCzyAktywny)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DbDataWpisu)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DbDataWpisu)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DbPerId)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DbPerId)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="ZstMainId" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>

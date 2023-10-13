@@ -1,0 +1,61 @@
+﻿@model Medox.Models.KorZstSklad
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>KorZstSklad</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ZstToZstSkladId" class="control-label"></label>
+                <select asp-for="ZstToZstSkladId" class ="form-control" asp-items="ViewBag.ZstToZstSkladId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="SkdId" class="control-label"></label>
+                <select asp-for="SkdId" class ="form-control" asp-items="ViewBag.SkdId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="ZstSkladIloscSkd" class="control-label"></label>
+                <input asp-for="ZstSkladIloscSkd" class="form-control" />
+                <span asp-validation-for="ZstSkladIloscSkd" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ZstSkladnikUwagi" class="control-label"></label>
+                <input asp-for="ZstSkladnikUwagi" class="form-control" />
+                <span asp-validation-for="ZstSkladnikUwagi" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="ZstSkladCzyAktywny" /> @Html.DisplayNameFor(model => model.ZstSkladCzyAktywny)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="DbDataWpisu" class="control-label"></label>
+                <input asp-for="DbDataWpisu" class="form-control" />
+                <span asp-validation-for="DbDataWpisu" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DbPerId" class="control-label"></label>
+                <input asp-for="DbPerId" class="form-control" />
+                <span asp-validation-for="DbPerId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

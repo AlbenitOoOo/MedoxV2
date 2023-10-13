@@ -1,0 +1,59 @@
+﻿@model IEnumerable<Medox.Models.KorZst>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ZstCzyAktywny)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DbDataWpisu)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DbPerId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ZstMain)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ZstToZstSklad)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ZstCzyAktywny)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DbDataWpisu)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DbPerId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ZstMain.ZstMainId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ZstToZstSklad.ZstToZstSkladId)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ZstId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.ZstId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.ZstId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

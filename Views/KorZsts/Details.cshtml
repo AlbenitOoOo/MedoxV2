@@ -1,0 +1,48 @@
+﻿@model Medox.Models.KorZst
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>KorZst</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ZstCzyAktywny)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ZstCzyAktywny)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DbDataWpisu)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DbDataWpisu)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DbPerId)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DbPerId)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ZstMain)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ZstMain.ZstMainId)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ZstToZstSklad)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ZstToZstSklad.ZstToZstSkladId)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.ZstId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

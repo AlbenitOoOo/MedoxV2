@@ -1,0 +1,60 @@
+﻿@model Medox.Models.KorZstSklad
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>KorZstSklad</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ZstSkladIloscSkd)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ZstSkladIloscSkd)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ZstSkladnikUwagi)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ZstSkladnikUwagi)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ZstSkladCzyAktywny)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ZstSkladCzyAktywny)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DbDataWpisu)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DbDataWpisu)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DbPerId)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DbPerId)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Skd)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Skd.SkdId)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ZstToZstSklad)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ZstToZstSklad.ZstToZstSkladId)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.ZstSkladId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
